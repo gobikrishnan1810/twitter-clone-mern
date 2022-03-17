@@ -1,17 +1,17 @@
-var express = require('express')
-var path = require('path')
-var fs = require('fs')
-var cookieParser = require('cookie-parser')
-var morgan = require('morgan')
-var compression = require('compression')
-var mongoose = require('mongoose')
+const express = require('express')
+const path = require('path')
+const fs = require('fs'),
+const cookieParser = require('cookie-parser')
+const morgan = require('morgan')
+const compression = require('compression')
+const mongoose = require('mongoose')
 const webpush = require('web-push')
 
 const { sessionMiddleware } = require('./utils/middlewares')
 const apiRouter = require('./routes/api')
 const authRouter = require('./routes/auth')
 
-const port=process.env.PORT || 8080 ;
+const port= process.env.PORT || 8080 ;
 
 
 const pre_populate = require('./dummy-data/pre_populate')
@@ -31,7 +31,7 @@ mongoose
         console.log('error starting database', err)
     })
 
-var app = express()
+const app = express()
 const passport = require('./passport')
 //app.set('trust proxy', 1) // trust first proxy, when node is behind proxy server
 

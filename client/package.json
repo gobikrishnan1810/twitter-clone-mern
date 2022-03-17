@@ -2,8 +2,6 @@
   "name": "tclone",
   "sideEffects": false,
   "version": "2.2.1",
-  "proxy":"https://twitter-mernclone.herokuapp.com/",
-  
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.28",
     "@fortawesome/free-brands-svg-icons": "^5.13.0",
