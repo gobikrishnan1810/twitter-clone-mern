@@ -60,7 +60,7 @@ registerRoute(
 )
 // requests to cors-anywhere proxy, cache-first
 registerRoute(
-    ({ url }) => url.origin === 'https://cors-anywhere.herokuapp.com',
+    ({ url }) => url.origin === 'https://twitter-mernclone.herokuapp.com',
     new CacheFirst({
         cacheName: 'previews',
         plugins: [

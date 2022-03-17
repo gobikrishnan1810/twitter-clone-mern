@@ -1,6 +1,6 @@
 {
     "compilerOptions": {
-        "baseUrl": "https://twitter-mernclone.herokuapp.com/"
+        "baseUrl": "src"
     },
     "include": [
         "src"
