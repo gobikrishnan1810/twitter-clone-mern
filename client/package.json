@@ -2,7 +2,7 @@
   "name": "tclone",
   "sideEffects": false,
   "version": "2.2.1",
-  "proxy":"http://localhost:8080/",
+  "proxy":"https://twitter-mernclone.herokuapp.com/",
   
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.28",
